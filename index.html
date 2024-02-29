@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Manuel Galán Pérez | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/351cca41ca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="contenido">
+            <nav>
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Sobre Mi</a></li>
+                    <li><a href="">Skills</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <!--Titulo-->
+            <h1 id="titprinci">Juan Manuel<br>Galán Pérez</h1>
+            <h3 id="devtit">Web Developer</h3>
+            <a href="https://linkedin.com"><button class="boton">LinkedIn</button></a>
+            <a href="./juanmanuelgalanperez_esp (1).pdf"><button class="boton">Currículum</button></a>
+            
+            
+            
+            <!--Sobre mi-->
+            <section>
+                <h2 class="titulo">Sobre Mi</h2>
+            
+                <div class="aboutme">
+                    <img src="./img/descarga.jpg" alt="foto personal" width="300px">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ducimus veritatis voluptatum voluptates impedit. Odit rem maxime beatae voluptate eaque ex voluptatibus dolorum, quis, eveniet, temporibus dignissimos harum necessitatibus nisi!</p>
+                </div>
+            </section>
+
+            <!--Certificaciones -->
+            <section>
+                <h2 class="titulo">Mis certificaciones</h2>
+                <div id="secerti">
+                    <a href="./certificaciones/mastermind_1.pdf"><img src="./img/certificaciones/certificacion2.png" alt="" class="certific"></a>
+                    <a href=""><img src="./img/certificaciones/certificacion2.png" alt="" class="certific"></a>
+                </div>
+
+            </section>
+
+            
+            <!--Skills-->
+            
+            <section>
+                <h2 class="titulo">Skills</h2>
+
+                <div class="skills">
+                    <div class="skillsimg">
+                    <img src="./img/skills/html.png" alt="" width="100px"> 
+                    </div>
+                    <div class="skillsimg">
+                        <img src="./img/skills/css.webp" alt="" width="100px"> 
+                    </div>
+                    <div class="skillsimg">
+                        <img src="./img/skills/js.png" alt="" width="100px"> 
+                    </div>
+                    <div class="skillsimg">
+                        <img src="./img/skills/react.png" alt="" width="100px"> 
+                    </div>
+                    <div class="skillsimg">
+                        <img src="./img/skills/tailwind.png" alt="" width="100px"> 
+                    </div>
+                    <div class="skillsimg">
+                        <img src="./img/skills/wordpress.webp" alt="" width="100px"> 
+                    </div>
+                    <div class="skillsimg">
+                        <img src="./img/skills/php.png" alt="" width="100px"> 
+                    </div>
+                    <div class="skillsimg">
+                        <img src="./img/skills/python.png" alt="" width="100px"> 
+                    </div>
+                    <div class="skillsimg">
+                        <img src="./img/skills/bootstrap.png" alt="" width="100px"> 
+                    </div>
+                    <div class="skillsimg">
+                        <img src="./img/skills/astro.png" alt="" width="100px"> 
+                    </div>
+                </div>
+            </section>
+
+            <!-- Proyectos -->
+            
+            <!--Contacto-->
+            
+                <section id="contactar">
+                    <h2 class="titulo">Contacto</h2>
+                    <form action="#" class="formulario">
+                        <div class="itemform">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" minlength="2" maxlength="64" size="32" required>
+                        </div>
+                        <div class="itemform">
+                            <label for="empresa">Empresa</label>
+                            <input type="text" id="empresa" name="empresa" minlength="2" maxlength="128" size="32">
+                        </div>
+                        <div class="itemform">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" minlength="10" maxlength="128" size="32" required>
+                        </div>
+                        <div class="itemform">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" cols="33" rows="5"></textarea>
+                        </div>
+                        <div class="itemform">
+                            <input type="submit" name="boton" value="CONTACTAR">
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
